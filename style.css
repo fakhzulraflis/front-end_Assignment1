@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #708090;
+  color: rgb(240, 248, 255);
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.title-topic {
+  font-size: 6em;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  color: bisque;
+  text-align: center;
+  text-shadow: 2px 6px 3px rgb(239, 189, 127);
+  margin-bottom: -3%;
+}
+
+.title-subtopic {
+  font-size: 3em;
+  font-weight: bold;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: bisque;
+  text-align: center;
+  text-shadow: 2px 6px 3px rgb(239, 189, 127);
+  margin-bottom: 19%;
+}
+
+.title-footer {
+  font-weight: lighter;
+  font-family:
+    "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", Times,
+    serif;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  padding-right: 85%;
+  margin-bottom: 7%;
+  border-bottom: 1px solid bisque;
+}
+.nav-style {
+  color: bisque;
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 2px 6px 6px rgb(168, 91, 53);
+  margin: auto;
+  background: rgb(198, 146, 120);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-shadow: 2px 6px 3px rgb(76, 76, 76);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.article-text {
+  text-align: justify;
+  color: aliceblue;
+  font-family:
+    "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", Times,
+    serif;
+  font-weight: normal;
+}
+
+.educationfield {
+  width: 100%;
+  height: 200%;
+  box-sizing: border-box;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: stretch; /* Membuat tinggi peta sama tinggi dengan kotak teks di kirinya */
+  width: 100%;
+}
+
+.education-info {
+  flex: 1;
+  font-family:
+    "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", Times,
+    serif;
+}
+
+.education-info h3 {
+  font-family: Impact, Charcoal, sans-serif;
+  color: rgb(255, 235, 211);
+  text-shadow: 2px 6px 3px rgb(239, 144, 28);
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 163%;
+  margin-bottom: 0%;
+  letter-spacing: 2px;
+}
+
+.education-map {
+  flex: 1.8;
+  display: flex;
+}
+
+.education-map2 {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 8px;
+  box-shadow: 2px 6px 6px rgb(53, 53, 53);
+}
+
+.fieldseteducation {
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;
+}
+
+.contactfield {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.fieldsetcontact {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.contact-info,
+.contact-image {
+  flex: 1;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-info label {
+  color: bisque;
+  font-size: 18px;
+}
+
+.contact-info input,
+.contact-info textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #878e96;
+  border-radius: 5px;
+  color: #455564;
+  background-color: aliceblue;
+  font-family: inherit;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.contact-info textarea {
+  resize: vertical;
+}
+
+.contact-info button {
+  padding: 13px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: bisque;
+  background-color: #455564;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-info button:hover{
+  background-color: #384c5d;
+}
+
+.contact-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 6px 6px rgb(53, 53, 53);
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.link-github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: bisque;
+  text-shadow: 2px 3px 4px rgb(239, 189, 127);
+  background-color: #878e96;
+  box-shadow: 2px 6px 3px #455564;
+}
+
+.link-instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: bisque;
+  text-shadow: 2px 3px 4px rgb(239, 189, 127);
+  background-color: #878e96;
+  box-shadow: 2px 6px 3px #455564;
+}
+
+.end-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 2px 6px 6px rgb(168, 91, 53);
+  margin: auto;
+  background: rgb(239, 189, 127);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.end-article h2 {
+  color: bisque;
+  text-shadow: 2px 6px 3px rgb(76, 76, 76);
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #878e96;
+}
+
+.skills-container,
+.language-container,
+.hobbies-container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.skills-box,
+.language-box,
+.hobbies-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  padding: 20px;
+  border: 2px solid #878e96;
+  border-radius: 10px;
+  background-color: bisque;
+  margin-bottom: 30px;
+}
+
+.skills-title,
+.language-title,
+.hobbies-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(239, 189, 127);
+  -webkit-text-stroke: 1px #878e96;
+  text-align: center;
+}
+
+.skills-list,
+.hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.skills-item,
+.hobbies-item {
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #878e96;
+  border-radius: 5px;
+  color: #878e96;
+}
+
+.language-level {
+  margin-top: 0px;
+  color: #878e96;
+  font-family:
+    "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", Times,
+    serif;
+  font-weight: normal;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: bisque;
+  margin-top: 30px;
+}
+
