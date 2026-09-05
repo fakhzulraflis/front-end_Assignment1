@@ -14,6 +14,7 @@ Cascading Style Sheet (CSS) on the other hand, menurut saya berfungsi sebagai se
 Simple nya adalah, apabila kita manempatkan konten css di page yang sama dengan html code akan terlihat lebih panjang dan kurang rapih. Perhatikan code HTML dan CSS dibawah ini:
 
 ```html
+<!-- Contoh HTML -->
 <div class="end-article">
   <h2>TECHNICAL ABILITIES</h2>
   <div class="skills-container">
@@ -32,6 +33,7 @@ Simple nya adalah, apabila kita manempatkan konten css di page yang sama dengan 
 ```
 
 ```css
+/* Contoh CSS */
 .end-article {
   display: flex;
   flex-direction: column;
