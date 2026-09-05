@@ -99,7 +99,7 @@ Simple nya adalah, apabila kita manempatkan konten css di page yang sama dengan 
 
 Imagine apabila setiap class css yang di panggil atau digunakan ini kita tempatkan pada kedua page yang sama? sudah pasti kode akan terlihat lebih panjang, tidak rapih, dan sulit untuk maintenance. Maka dari itu, externall css digunakan karena merupakan metode yang terbaik untuk memisahkan konten (HTML) dari desain (CSS) secara total, sehingga nantinya pengeditan dan pengelolaan web page nya menjadi jauh lebih efisien.
 
-## 4. Apa fungsi <header>, <nav>, <article>, dan <footer>?​
+## 4. Apa fungsi `<header>, <nav>, <article>, dan <footer>`?​
 
 Ke - empat tag ini merupakan elemen semantik dalam HTML5 yang menurut saya berfungsi untuk memberikan struktur dan arti yang jelas pada bagian sebuah halaman web.
 
